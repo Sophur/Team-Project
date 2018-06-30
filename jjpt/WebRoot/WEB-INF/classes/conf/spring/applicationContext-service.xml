@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+
+	<bean name="loginuserService" class="com.service.LoginuserServiceImpl">
+		<property name="loginuserDAO">
+			<ref bean="loginuserDAO" />
+		</property>
+	</bean>
+ 
+	
+	<bean name="userinfoService" class="com.service.UserinfoServiceImpl">
+	<property name="userinfoDAO">
+		<ref bean="userinfoDAO" />
+	</property>
+</bean>
+	
+	<bean name="newsService" class="com.service.NewsServiceImpl">
+	<property name="newsDAO">
+		<ref bean="newsDAO" />
+	</property>
+</bean>
+<bean name="xunService" class="com.service.XunServiceImpl">
+	<property name="xunDAO">
+		<ref bean="xunDAO" />
+	</property>
+</bean>
+ <bean name="lingService" class="com.service.LingServiceImpl">
+	<property name="lingDAO">
+		<ref bean="lingDAO" />
+	</property>
+</bean>
+
+<bean name="pingService" class="com.service.PingServiceImpl">
+	<property name="pingDAO">
+		<ref bean="pingDAO" />
+	</property>
+</bean>
+<bean name="messageService" class="com.service.MessageServiceImpl">
+	<property name="messageDAO">
+		<ref bean="messageDAO" />
+	</property>
+</bean>
+</beans>

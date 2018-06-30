@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC   
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+
+<struts>
+	<package name="com" extends="struts-default">
+		<global-results>
+			<result name="succeed">/common/succeed.jsp</result>
+			<result name="successAdd">/common/add_success.jsp</result>
+			<result name="successDel">/common/del_success.jsp</result>
+			<result name="successUpdate">
+				/common/update_success.jsp
+			</result>
+		</global-results>
+
+		<action name="upload" class="com.util.upload" method="upload">
+			<result name="success">/upload/upload_re.jsp</result>
+		</action>
+
+
+
+		<action name="loginuser" class="loginuserWebAction">
+			<result name="list">/loginuser/loginuser_list.jsp</result>
+			<result name="add">/loginuser/loginuser_add.jsp</result>
+			<result name="edit">/loginuser/loginuser_edit.jsp</result>
+			<result name="view">/loginuser/loginuser_view.jsp</result>
+			<result name="fail">/login.jsp</result>
+			<result name="register">/register.jsp</result>
+			<result name="loginuser_info">
+				/loginuser/loginuser_info.jsp
+			</result>
+
+			<result name="success">/index2.jsp</result>
+
+		</action>
+
+		<action name="index" class="indexWebAction">
+
+			<result name="index">/thisindex.jsp</result>
+		</action>
+
+		<action name="userinfo" class="userinfoWebAction">
+			<result name="list">/userinfo/userinfo_list.jsp</result>
+			<result name="add">/userinfo/userinfo_add.jsp</result>
+			<result name="edit">/userinfo/userinfo_edit.jsp</result>
+			<result name="view">/userinfo/userinfo_view.jsp</result>
+			<result name="fail">/fail.jsp</result>
+			<result name="reg">/registered.jsp</result>
+			<result name="regs">/register.jsp</result>
+			<result name="success">/index.jsp</result>
+		</action>
+
+		<action name="news" class="newsWebAction">
+			<result name="list">/news/news_list.jsp</result>
+			<result name="add">/news/news_add.jsp</result>
+			<result name="edit">/news/news_edit.jsp</result>
+			<result name="view">/news/news_view.jsp</result>
+			<result name="fail">/fail.jsp</result>
+			<result name="xian">/xian.jsp</result>
+			<result name="xiand">/xian_detail.jsp</result>
+		</action>
+
+		<action name="xun" class="xunWebAction">
+			<result name="list">/xun/xun_list.jsp</result>
+			<result name="add">/xun/xun_add.jsp</result>
+			<result name="edit">/xun/xun_edit.jsp</result>
+			<result name="view">/xun/xun_view.jsp</result>
+			<result name="fail">/fail.jsp</result>
+			<result name="xun">/xun.jsp</result>
+			<result name="xund">/xun_detail.jsp</result>
+		</action>
+
+		<action name="ling" class="lingWebAction">
+			<result name="list">/ling/ling_list.jsp</result>
+			<result name="add">/ling/ling_add.jsp</result>
+			<result name="edit">/ling/ling_edit.jsp</result>
+			<result name="view">/ling/ling_view.jsp</result>
+			<result name="fail">/fail.jsp</result>
+			<result name="ling">/ling.jsp</result>
+			<result name="lingd">/ling_detail.jsp</result>
+		</action>
+		<action name="ping" class="pingWebAction">
+			<result name="list">/ping/ping_list.jsp</result>
+			<result name="add">/ping/ping_add.jsp</result>
+			<result name="edit">/ping/ping_edit.jsp</result>
+			<result name="view">/ping/ping_view.jsp</result>
+			<result name="fail">/fail.jsp</result>
+		</action>
+		<action name="message" class="messageWebAction">
+			<result name="list">/message/message_list.jsp</result>
+			<result name="add">/message/message_add.jsp</result>
+			<result name="edit">/message/message_edit.jsp</result>
+			<result name="view">/message/message_view.jsp</result>
+			<result name="fail">/fail.jsp</result>
+			<result name="fr">/message.jsp</result>
+		</action>
+
+	</package>
+</struts>

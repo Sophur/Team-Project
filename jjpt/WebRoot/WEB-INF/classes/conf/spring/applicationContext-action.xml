@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+
+
+
+	<bean id="loginuserWebAction" class="com.action.LoginuserWebAction"
+		scope="prototype">
+		<property name="loginuserService">
+			<ref bean="loginuserService" />
+		</property>
+	</bean>
+
+	<bean id="indexWebAction" class="com.action.IndexWebAction" scope="prototype">
+		<property name="newsService">
+			<ref bean="newsService" />
+		</property>
+		<property name="lingService">
+		<ref bean="lingService" />
+	</property>
+	<property name="xunService">
+		<ref bean="xunService" />
+	</property>
+
+	</bean>
+
+	<bean id="userinfoWebAction" class="com.action.UserinfoWebAction"
+		scope="prototype">
+		<property name="userinfoService">
+			<ref bean="userinfoService" />
+		</property>
+	</bean>
+
+	<bean id="newsWebAction" class="com.action.NewsWebAction" scope="prototype">
+		<property name="newsService">
+			<ref bean="newsService" />
+		</property>
+	</bean>
+	
+	<bean id="xunWebAction" class="com.action.XunWebAction" scope="prototype">
+	<property name="xunService">
+		<ref bean="xunService" />
+	</property>
+	<property name="pingService">
+		<ref bean="pingService" />
+	</property>
+</bean>
+
+
+<bean id="lingWebAction" class="com.action.LingWebAction" scope="prototype">
+	<property name="lingService">
+		<ref bean="lingService" />
+	</property>
+	<property name="pingService">
+		<ref bean="pingService" />
+	</property>
+</bean>
+ 
+
+<bean id="pingWebAction" class="com.action.PingWebAction" scope="prototype">
+	<property name="pingService">
+		<ref bean="pingService" />
+	</property>
+</bean>
+
+<bean id="messageWebAction" class="com.action.MessageWebAction" scope="prototype">
+	<property name="messageService">
+		<ref bean="messageService" />
+	</property>
+</bean>
+</beans>
