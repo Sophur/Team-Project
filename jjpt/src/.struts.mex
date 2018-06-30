@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="com" location="0,0" size="0,0">
+    <action name="upload" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="upload_re.jsp" />
+      </result>
+    </action>
+    <action name="loginuser" location="0,0" size="0,0">
+      <result name="list">
+        <resourceEdge source="list" routing="0" target="loginuser_list.jsp" />
+      </result>
+      <result name="add">
+        <resourceEdge source="add" routing="0" target="loginuser_add.jsp" />
+      </result>
+      <result name="edit">
+        <resourceEdge source="edit" routing="0" target="loginuser_edit.jsp" />
+      </result>
+      <result name="view">
+        <resourceEdge source="view" routing="0" target="loginuser_view.jsp" />
+      </result>
+      <result name="fail">
+        <resourceEdge source="fail" routing="0" target="login.jsp" />
+      </result>
+      <result name="register">
+        <resourceEdge source="register" routing="0" target="register.jsp" />
+      </result>
+      <result name="loginuser_info">
+        <resourceEdge source="loginuser_info" routing="0" target="loginuser_info.jsp" />
+      </result>
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index2.jsp" />
+      </result>
+    </action>
+    <action name="index" location="0,0" size="0,0">
+      <result name="index">
+        <resourceEdge source="index" routing="0" target="thisindex.jsp" />
+      </result>
+    </action>
+    <action name="userinfo" location="0,0" size="0,0">
+      <result name="list">
+        <resourceEdge source="list" routing="0" target="userinfo_list.jsp" />
+      </result>
+      <result name="add">
+        <resourceEdge source="add" routing="0" target="userinfo_add.jsp" />
+      </result>
+      <result name="edit">
+        <resourceEdge source="edit" routing="0" target="userinfo_edit.jsp" />
+      </result>
+      <result name="view">
+        <resourceEdge source="view" routing="0" target="userinfo_view.jsp" />
+      </result>
+      <result name="fail">
+        <resourceEdge source="fail" routing="0" target="fail.jsp" />
+      </result>
+      <result name="reg">
+        <resourceEdge source="reg" routing="0" target="registered.jsp" />
+      </result>
+      <result name="regs">
+        <resourceEdge source="regs" routing="0" target="register.jsp" />
+      </result>
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index.jsp" />
+      </result>
+    </action>
+    <action name="news" location="0,0" size="0,0">
+      <result name="list">
+        <resourceEdge source="list" routing="0" target="news_list.jsp" />
+      </result>
+      <result name="add">
+        <resourceEdge source="add" routing="0" target="news_add.jsp" />
+      </result>
+      <result name="edit">
+        <resourceEdge source="edit" routing="0" target="news_edit.jsp" />
+      </result>
+      <result name="view">
+        <resourceEdge source="view" routing="0" target="news_view.jsp" />
+      </result>
+      <result name="fail">
+        <resourceEdge source="fail" routing="0" target="fail.jsp" />
+      </result>
+      <result name="xian">
+        <resourceEdge source="xian" routing="0" target="xian.jsp" />
+      </result>
+      <result name="xiand">
+        <resourceEdge source="xiand" routing="0" target="xian_detail.jsp" />
+      </result>
+    </action>
+    <action name="xun" location="0,0" size="0,0">
+      <result name="list">
+        <resourceEdge source="list" routing="0" target="xun_list.jsp" />
+      </result>
+      <result name="add">
+        <resourceEdge source="add" routing="0" target="xun_add.jsp" />
+      </result>
+      <result name="edit">
+        <resourceEdge source="edit" routing="0" target="xun_edit.jsp" />
+      </result>
+      <result name="view">
+        <resourceEdge source="view" routing="0" target="xun_view.jsp" />
+      </result>
+      <result name="fail">
+        <resourceEdge source="fail" routing="0" target="fail.jsp" />
+      </result>
+      <result name="xun">
+        <resourceEdge source="xun" routing="0" target="xun.jsp" />
+      </result>
+      <result name="xund">
+        <resourceEdge source="xund" routing="0" target="xun_detail.jsp" />
+      </result>
+    </action>
+    <action name="ling" location="0,0" size="0,0">
+      <result name="list">
+        <resourceEdge source="list" routing="0" target="ling_list.jsp" />
+      </result>
+      <result name="add">
+        <resourceEdge source="add" routing="0" target="ling_add.jsp" />
+      </result>
+      <result name="edit">
+        <resourceEdge source="edit" routing="0" target="ling_edit.jsp" />
+      </result>
+      <result name="view">
+        <resourceEdge source="view" routing="0" target="ling_view.jsp" />
+      </result>
+      <result name="fail">
+        <resourceEdge source="fail" routing="0" target="fail.jsp" />
+      </result>
+      <result name="ling">
+        <resourceEdge source="ling" routing="0" target="ling.jsp" />
+      </result>
+      <result name="lingd">
+        <resourceEdge source="lingd" routing="0" target="ling_detail.jsp" />
+      </result>
+    </action>
+    <action name="ping" location="0,0" size="0,0">
+      <result name="list">
+        <resourceEdge source="list" routing="0" target="ping_list.jsp" />
+      </result>
+      <result name="add">
+        <resourceEdge source="add" routing="0" target="ping_add.jsp" />
+      </result>
+      <result name="edit">
+        <resourceEdge source="edit" routing="0" target="ping_edit.jsp" />
+      </result>
+      <result name="view">
+        <resourceEdge source="view" routing="0" target="ping_view.jsp" />
+      </result>
+      <result name="fail">
+        <resourceEdge source="fail" routing="0" target="fail.jsp" />
+      </result>
+    </action>
+    <action name="message" location="0,0" size="0,0">
+      <result name="list">
+        <resourceEdge source="list" routing="0" target="message_list.jsp" />
+      </result>
+      <result name="add">
+        <resourceEdge source="add" routing="0" target="message_add.jsp" />
+      </result>
+      <result name="edit">
+        <resourceEdge source="edit" routing="0" target="message_edit.jsp" />
+      </result>
+      <result name="view">
+        <resourceEdge source="view" routing="0" target="message_view.jsp" />
+      </result>
+      <result name="fail">
+        <resourceEdge source="fail" routing="0" target="fail.jsp" />
+      </result>
+      <result name="fr">
+        <resourceEdge source="fr" routing="0" target="message.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="loginuser_list.jsp" path="/loginuser/loginuser_list.jsp" location="569,1025" size="150,55" />
+  <webResource name="loginuser_add.jsp" path="/loginuser/loginuser_add.jsp" location="566,850" size="150,55" />
+  <webResource name="loginuser_edit.jsp" path="/loginuser/loginuser_edit.jsp" location="566,675" size="150,55" />
+  <webResource name="loginuser_view.jsp" path="/loginuser/loginuser_view.jsp" location="565,500" size="150,55" />
+  <webResource name="login.jsp" path="/login.jsp" location="576,325" size="150,55" />
+  <webResource name="register.jsp" path="/register.jsp" location="576,150" size="150,55" />
+  <webResource name="loginuser_info.jsp" path="/loginuser/loginuser_info.jsp" location="286,10" size="150,55" />
+  <webResource name="index.jsp" path="/index.jsp" location="86,1025" size="150,55" />
+  <webResource name="fileinfo_list.jsp" path="/fileinfo/fileinfo_list.jsp" location="584,1725" size="150,55" />
+  <webResource name="fileinfo_add.jsp" path="/fileinfo/fileinfo_add.jsp" location="581,1550" size="150,55" />
+  <webResource name="fileinfo_edit.jsp" path="/fileinfo/fileinfo_edit.jsp" location="581,1375" size="150,55" />
+  <webResource name="fileinfo_view.jsp" path="/fileinfo/fileinfo_view.jsp" location="580,1200" size="150,55" />
+  <webResource name="fail.jsp" path="/fail.jsp" location="86,3300" size="150,55" />
+  <webResource name="navcontent_list.jsp" path="/navContent/navcontent_list.jsp" location="559,2425" size="150,55" />
+  <webResource name="navcontent_add.jsp" path="/navContent/navcontent_add.jsp" location="556,2250" size="150,55" />
+  <webResource name="navcontent_edit.jsp" path="/navContent/navcontent_edit.jsp" location="556,2075" size="150,55" />
+  <webResource name="navcontent_view.jsp" path="/navContent/navcontent_view.jsp" location="590,1900" size="150,55" />
+  <webResource name="recordinfo_list.jsp" path="/recordinfo/recordinfo_list.jsp" location="562,3300" size="150,55" />
+  <webResource name="recordinfo_add.jsp" path="/recordinfo/recordinfo_add.jsp" location="559,3125" size="150,55" />
+  <webResource name="recordinfo_edit.jsp" path="/recordinfo/recordinfo_edit.jsp" location="559,2950" size="150,55" />
+  <webResource name="recordinfo_view.jsp" path="/recordinfo/recordinfo_view.jsp" location="558,2775" size="150,55" />
+  <webResource name="select_list.jsp" path="/recordinfo/select_list.jsp" location="576,2600" size="150,55" />
+  <webResource name="checkin_list.jsp" path="/checkin/checkin_list.jsp" location="580,4035" size="150,55" />
+  <webResource name="checkin_add.jsp" path="/checkin/checkin_add.jsp" location="577,3860" size="150,55" />
+  <webResource name="checkin_edit.jsp" path="/checkin/checkin_edit.jsp" location="577,3685" size="150,55" />
+  <webResource name="checkin_view.jsp" path="/checkin/checkin_view.jsp" location="576,3510" size="150,55" />
+  <webResource name="payment_list.jsp" path="/payment/payment_list.jsp" location="13,4315" size="150,55" />
+  <webResource name="payment_add.jsp" path="/payment/payment_add.jsp" location="10,4490" size="150,55" />
+  <webResource name="payment_edit.jsp" path="/payment/payment_edit.jsp" location="290,4630" size="150,55" />
+  <webResource name="payment_view.jsp" path="/payment/payment_view.jsp" location="569,4210" size="150,55" />
+  <webResource name="car_list.jsp" path="/car/car_list.jsp" location="0,0" size="0,0" />
+  <webResource name="car_add.jsp" path="/car/car_add.jsp" location="0,0" size="0,0" />
+  <webResource name="car_edit.jsp" path="/car/car_edit.jsp" location="0,0" size="0,0" />
+  <webResource name="car_view.jsp" path="/car/car_view.jsp" location="0,0" size="0,0" />
+  <webResource name="sale_list.jsp" path="/sale/sale_list.jsp" location="0,0" size="0,0" />
+  <webResource name="sale_add.jsp" path="/sale/sale_add.jsp" location="0,0" size="0,0" />
+  <webResource name="sale_edit.jsp" path="/sale/sale_edit.jsp" location="0,0" size="0,0" />
+  <webResource name="sale_view.jsp" path="/sale/sale_view.jsp" location="0,0" size="0,0" />
+  <webResource name="kehu_list.jsp" path="/kehu/kehu_list.jsp" location="0,0" size="0,0" />
+  <webResource name="kehu_add.jsp" path="/kehu/kehu_add.jsp" location="0,0" size="0,0" />
+  <webResource name="kehu_edit.jsp" path="/kehu/kehu_edit.jsp" location="0,0" size="0,0" />
+  <webResource name="kehu_view.jsp" path="/kehu/kehu_view.jsp" location="0,0" size="0,0" />
+  <webResource name="baoyang_list.jsp" path="/baoyang/baoyang_list.jsp" location="0,0" size="0,0" />
+  <webResource name="baoyang_add.jsp" path="/baoyang/baoyang_add.jsp" location="0,0" size="0,0" />
+  <webResource name="baoyang_edit.jsp" path="/baoyang/baoyang_edit.jsp" location="0,0" size="0,0" />
+  <webResource name="baoyang_view.jsp" path="/baoyang/baoyang_view.jsp" location="0,0" size="0,0" />
+  <webResource name="goods_list.jsp" path="/goods/goods_list.jsp" location="0,0" size="0,0" />
+  <webResource name="goods_add.jsp" path="/goods/goods_add.jsp" location="0,0" size="0,0" />
+  <webResource name="goods_edit.jsp" path="/goods/goods_edit.jsp" location="0,0" size="0,0" />
+  <webResource name="goods_view.jsp" path="/goods/goods_view.jsp" location="0,0" size="0,0" />
+  <webResource name="userinfo_list.jsp" path="/userinfo/userinfo_list.jsp" location="0,0" size="0,0" />
+  <webResource name="userinfo_add.jsp" path="/userinfo/userinfo_add.jsp" location="0,0" size="0,0" />
+  <webResource name="userinfo_edit.jsp" path="/userinfo/userinfo_edit.jsp" location="0,0" size="0,0" />
+  <webResource name="userinfo_view.jsp" path="/userinfo/userinfo_view.jsp" location="0,0" size="0,0" />
+  <webResource name="news_list.jsp" path="/news/news_list.jsp" location="0,0" size="0,0" />
+  <webResource name="news_add.jsp" path="/news/news_add.jsp" location="0,0" size="0,0" />
+  <webResource name="news_edit.jsp" path="/news/news_edit.jsp" location="0,0" size="0,0" />
+  <webResource name="news_view.jsp" path="/news/news_view.jsp" location="0,0" size="0,0" />
+  <webResource name="yundan_list.jsp" path="/yundan/yundan_list.jsp" location="0,0" size="0,0" />
+  <webResource name="yundan_add.jsp" path="/yundan/yundan_add.jsp" location="0,0" size="0,0" />
+  <webResource name="yundan_edit.jsp" path="/yundan/yundan_edit.jsp" location="0,0" size="0,0" />
+  <webResource name="yundan_view.jsp" path="/yundan/yundan_view.jsp" location="0,0" size="0,0" />
+  <webResource name="index2.jsp" path="/index2.jsp" location="0,0" size="0,0" />
+  <webResource name="thisindex.jsp" path="/thisindex.jsp" location="0,0" size="0,0" />
+  <webResource name="xian.jsp" path="/xian.jsp" location="0,0" size="0,0" />
+  <webResource name="xian_detail.jsp" path="/xian_detail.jsp" location="0,0" size="0,0" />
+  <webResource name="registered.jsp" path="/registered.jsp" location="0,0" size="0,0" />
+  <webResource name="adyundan.jsp" path="adyundan.jsp" location="0,0" size="0,0" />
+  <webResource name="yundan.jsp" path="/yundan.jsp" location="0,0" size="0,0" />
+  <webResource name="qyundan.jsp" path="/qyundan.jsp" location="0,0" size="0,0" />
+  <webResource name="upload_re.jsp" path="/upload/upload_re.jsp" location="0,0" size="0,0" />
+  <webResource name="xun_list.jsp" path="/xun/xun_list.jsp" location="0,0" size="0,0" />
+  <webResource name="xun_add.jsp" path="/xun/xun_add.jsp" location="0,0" size="0,0" />
+  <webResource name="xun_edit.jsp" path="/xun/xun_edit.jsp" location="0,0" size="0,0" />
+  <webResource name="xun_view.jsp" path="/xun/xun_view.jsp" location="0,0" size="0,0" />
+  <webResource name="ling_list.jsp" path="/ling/ling_list.jsp" location="0,0" size="0,0" />
+  <webResource name="ling_add.jsp" path="/ling/ling_add.jsp" location="0,0" size="0,0" />
+  <webResource name="ling_edit.jsp" path="/ling/ling_edit.jsp" location="0,0" size="0,0" />
+  <webResource name="ling_view.jsp" path="/ling/ling_view.jsp" location="0,0" size="0,0" />
+  <webResource name="xun.jsp" path="/xun.jsp" location="0,0" size="0,0" />
+  <webResource name="xun_detail.jsp" path="/xun_detail.jsp" location="0,0" size="0,0" />
+  <webResource name="ling.jsp" path="/ling.jsp" location="0,0" size="0,0" />
+  <webResource name="ling_detail.jsp" path="/ling_detail.jsp" location="0,0" size="0,0" />
+  <webResource name="ping_list.jsp" path="/ping/ping_list.jsp" location="0,0" size="0,0" />
+  <webResource name="ping_add.jsp" path="/ping/ping_add.jsp" location="0,0" size="0,0" />
+  <webResource name="ping_edit.jsp" path="/ping/ping_edit.jsp" location="0,0" size="0,0" />
+  <webResource name="ping_view.jsp" path="/ping/ping_view.jsp" location="0,0" size="0,0" />
+  <webResource name="message_list.jsp" path="/message/message_list.jsp" location="0,0" size="0,0" />
+  <webResource name="message_add.jsp" path="/message/message_add.jsp" location="0,0" size="0,0" />
+  <webResource name="message_edit.jsp" path="/message/message_edit.jsp" location="0,0" size="0,0" />
+  <webResource name="message_view.jsp" path="/message/message_view.jsp" location="0,0" size="0,0" />
+  <webResource name="message.jsp" path="/message.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+
